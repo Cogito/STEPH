@@ -1,0 +1,10 @@
+name: STEPH
+main: com.cogito.bukkit.steph.STEPH
+version: 0.1.0
+commands:
+  trade:
+    description: trade an item or stack of items with another player, for money
+    usage: |        
+        Incorrect usage of command /<command>. Examples:
+           /<command> - start the interactive trade menu
+           /<command> sell player_name item_name amount cost
